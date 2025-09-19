@@ -28,14 +28,19 @@
     请输入位置 (LEFT_TOP, CENTER, RIGHT_BOTTOM，默认RIGHT_BOTTOM): LEFT_TOP
 
 ## 📂 项目结构示例
-WatermarkEXIF/
-├── src/
-│   └── com/nju/WatermarkEXIF.java
-├── lib/
-│   └── metadata-extractor-2.18.0.jar
-├── image/
-│   └── shcool.jpg
-└── README.md
+   ```bash
+    WatermarkEXIF/
+    ├── src/
+    │   └── com/nju/WatermarkEXIF.java
+    ├── lib/
+    │   └── metadata-extractor-2.18.0.jar
+    ├── image/
+    │   └── shcool.jpg
+    └── README.md
+
+   ```
+
+
 
 ## 📝 注意事项
 - 如果图片没有 EXIF 拍摄日期，会显示 NO DATE。
